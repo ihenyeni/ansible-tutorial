@@ -5,6 +5,7 @@
   pre_tasks:
 
   - name: install updates (CentOS)
+    tags: updates	
     dnf:
       update_only: yes
       update_cache: yes
